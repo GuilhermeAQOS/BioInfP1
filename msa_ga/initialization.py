@@ -1,4 +1,4 @@
-"""Phase 1 - population initialization (YOURS to implement)."""
+"""Phase 1 - population initialization."""
 import random
 from typing import List
 
