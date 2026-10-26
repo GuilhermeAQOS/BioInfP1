@@ -3,7 +3,7 @@ import os
 from typing import Dict, List, Tuple
 
 import msa_ga  # noqa: F401  (makes ../lib importable)
-from substmatrix import SubstMatrix
+from lib.substmatrix import SubstMatrix
 
 from msa_ga.params import GAResult, Params
 

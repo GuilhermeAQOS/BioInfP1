@@ -1,8 +1,13 @@
 from typing import List, Optional, Tuple
 
-from myalign import MyAlign
-from myseq import MySeq
-from substmatrix import SubstMatrix
+if __package__:
+    from .myalign import MyAlign
+    from .myseq import MySeq
+    from .substmatrix import SubstMatrix
+else:
+    from myalign import MyAlign
+    from myseq import MySeq
+    from substmatrix import SubstMatrix
 
 class PairwiseAlignment:
     def __init__(self, sm: SubstMatrix, g: int) -> None:
@@ -149,4 +154,3 @@ def testLocal() -> None:
     print("Sequences to align:", seq1, seq2)
     print("Score of optimal alignment:", pa.S[i][j])
     print("Optimal alignment:",align)
-

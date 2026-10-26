@@ -1,5 +1,5 @@
-from pairwisealignment import PairwiseAlignment
-from myseq import MySeq
+from lib.pairwisealignment import PairwiseAlignment
+from lib.myseq import MySeq
 
 def score_msa(msa, sm, gap):
     pa = PairwiseAlignment(sm, gap)

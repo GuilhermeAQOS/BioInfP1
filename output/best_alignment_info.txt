@@ -1,0 +1,23 @@
+sequences: 13 (PROTEIN)
+alignment length: 123
+best score: -5861
+generations: 5
+stop reason: max_generations
+runtime (s): 0.30
+parameters:
+  fasta = data/cytochromes.fa
+  matrix = data/blosum62.mat
+  output = output/best_alignment.fasta
+  seq_type = auto
+  dna_match = 1
+  dna_mismatch = -1
+  gap_protein = -4
+  gap_dna = -2
+  pop_size = 20
+  max_offset_frac = 0.25
+  elite_frac = 0.5
+  crossover_prob = 0.5
+  max_generations = 5
+  patience = 3
+  seed = 42
+  verbose = True
