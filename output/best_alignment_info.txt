@@ -1,9 +1,9 @@
 sequences: 13 (PROTEIN)
-alignment length: 123
-best score: -5861
-generations: 5
-stop reason: max_generations
-runtime (s): 0.30
+alignment length: 141
+best score: -2396
+generations: 40
+stop reason: no_improvement
+runtime (s): 2.02
 parameters:
   fasta = data/cytochromes.fa
   matrix = data/blosum62.mat
@@ -17,7 +17,7 @@ parameters:
   max_offset_frac = 0.25
   elite_frac = 0.5
   crossover_prob = 0.5
-  max_generations = 5
-  patience = 3
+  max_generations = 50
+  patience = 10
   seed = 42
   verbose = True

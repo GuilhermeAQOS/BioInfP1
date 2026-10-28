@@ -1,7 +1,7 @@
 """Command-line entry point.  Run from the project root:
 
     python main.py                                   # cytochromes.fa with default parameters
-    python main.py --fasta data/small_dna.fa --pop-size 30 --seed 1
+    python main.py --fasta data/cytochromes.fa --pop-size 30 --seed 1
     python main.py --help                            # every parameter and its default
 """
 import argparse

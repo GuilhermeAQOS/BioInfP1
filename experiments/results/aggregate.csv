@@ -1,0 +1,4 @@
+config,n_runs,mean_best,std_best,min_best,max_best,mean_generations,mean_runtime_s,mean_length
+full,5,16181.4,5122.94,9628,22591,334.8,122.61,179
+crossover_only,5,-3014.6,4780.31,-7245,4640,196,350.6,129.6
+mutation_only,5,-1028.2,1818.97,-3390,1661,61.6,12.65,122

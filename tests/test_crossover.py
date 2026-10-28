@@ -28,7 +28,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PARAMS = Params(matrix=os.path.join(ROOT, "data", "blosum62.mat"))
 DNA_SM = build_submat("DNA", PARAMS)
 PROT_SM = build_submat("PROTEIN", PARAMS)
-DNA_SEQS = read_fasta(os.path.join(ROOT, "data", "small_dna.fa"))[1]
+DNA_SEQS = read_fasta(os.path.join(ROOT, "data", "cytochromes.fa"))[1]
 PROT_SEQS = read_fasta(os.path.join(ROOT, "data", "cytochromes.fa"))[1]
 
 # Parents from the crossover tutorial

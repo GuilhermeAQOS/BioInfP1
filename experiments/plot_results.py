@@ -57,6 +57,11 @@ def final_scores(results_dir):
     data = [random_scores] + list(groups.values())
     fig, ax = plt.subplots(figsize=(7, 4.5))
     ax.boxplot(data, labels=labels)
+    prog_path = os.path.join(results_dir, "progressive.csv")
+    if os.path.exists(prog_path):
+        prog = float(read_rows(prog_path)[0]["score"])
+        ax.axhline(prog, color="tab:red", linestyle="--", label="progressive (lab code)")
+        ax.legend()
     ax.set_ylabel("SP score")
     ax.set_title("Final best score per configuration vs random MSAs")
     plt.setp(ax.get_xticklabels(), rotation=20)
