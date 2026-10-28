@@ -1,0 +1,16 @@
+config,seed,best_score,generations,runtime_s,stop_reason
+full,1000,9628,433,147.877,no_improvement
+full,1001,22591,194,75.218,no_improvement
+full,1002,19889,243,79.071,no_improvement
+full,1003,13747,428,154.476,no_improvement
+full,1004,15052,376,128.723,no_improvement
+crossover_only,1000,4640,500,908.518,max_generations
+crossover_only,1001,-7245,50,31.9,no_improvement
+crossover_only,1002,-3619,154,194.198,no_improvement
+crossover_only,1003,-6724,96,132.709,no_improvement
+crossover_only,1004,-2125,180,225.027,no_improvement
+mutation_only,1000,1661,63,9.94,no_improvement
+mutation_only,1001,-3390,59,10.81,no_improvement
+mutation_only,1002,-648,68,10.775,no_improvement
+mutation_only,1003,-1260,60,10.618,no_improvement
+mutation_only,1004,-1504,58,9.398,no_improvement
